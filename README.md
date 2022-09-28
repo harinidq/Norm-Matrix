@@ -13,15 +13,17 @@ To write a program to find the 2-norm of the matrix and display the result in tw
 	4. Print the norm of the matrix in two decimal places.
 ## Program:
 ```
+Program to find 2-norm of a matrix.
+Developed by:M.D.Harini
+RegisterNumber: 22001980
 
-
-
-
-
-
+import numpy as np
+arr=np.array(eval(input()))
+n=np.linalg.norm(arr,2)
+print("{:.2f}".format(n))
 ```
-## Sample Input and Output:
-![norm1](./input.jpg)
+##Output:
+![Screenshot from 2022-09-28 10-17-11](https://user-images.githubusercontent.com/113497680/192689806-6d7b0b0c-1bc5-4238-bbbf-84c3c25b08ca.png)
 
 ## Result
 Thus the program for 2-norm of a matrix is written and verified.
